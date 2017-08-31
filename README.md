@@ -1,2 +1,0 @@
-# Dookomi
-Classified app
