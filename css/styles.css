@@ -960,8 +960,9 @@ footer .rights {
 
 footer .rights a {
 	color: #ffffff;
-	font-weight: 300;
+	font-weight: 400;
 	text-decoration: none;
+	font-family: 'Lato', Arial;
 }
 .navbar-toggle {
 	background-color: #CCC;
@@ -1036,10 +1037,10 @@ header .navbar-default.scrolled {
 	/* background: #6b396c; */
 }
 header .navbar-default.scrolled ul.navbar-nav li a {
-	color: #ffffff;
+	color: #0097a7;
 }
 header .navbar-default.scrolled ul.navbar-nav li a:hover {
-	color: #cc6698;
+	color: #0097a7;
 }
 }
 .pre-loader {
@@ -1082,7 +1083,17 @@ header .navbar-default ul.navbar-nav li a:hover.btn{    background: #ecb009;
 }
 
 @media only screen and (max-width:480px){
+.ban_info h2,
+.ban_info h2 span {font-size:40px; line-height:50px;}
+.ban_info p{font-size:25px; }
+.btn.btn-primary.inverse{margin-bottom:15px;}
 #about .row > div {width:100%; margin-bottom:30px; }
+.ban_info a {font-size:14px; vertical-align:top;  }
+.section-heading h1{font-size:40px; }
+section#getApp{padding:30px 0; }
+section#getApp .platforms{margin-bottom:50px; }
 }
 
+
+.mid_phone{margin:20px 0; }
 	
