@@ -82,7 +82,7 @@ var appMaster = {
 			$('#active_img').attr('src', target);
 		},function(){
 			//var target = $(this).attr('rel');
-			$('#active_img').attr('src', 'images/home.png');
+			$('#active_img').attr('src', 'images/device-home.png');
 		});
 	},
 	
